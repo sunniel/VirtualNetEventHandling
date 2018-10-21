@@ -1,0 +1,41 @@
+version 2
+run SimpleURMDeliveryRate-2-20180303-15:05:38-11872
+attr configname SimpleURMDeliveryRate
+attr datetime 20180303-15:05:38
+attr experiment SimpleURMDeliveryRate
+attr inifile omnetpp.ini
+attr iterationvars $0=0.7
+attr iterationvars2 "$0=0.7, $repetition=0"
+attr measurement $0=0.7
+attr network unreliable.UnreliableUpdateRedundancyModel
+attr processid 11872
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 2
+attr seedset 2
+
+scalar UnreliableUpdateRedundancyModel.client[0] 	"Delivery rate" 	0.31491136600626
+statistic UnreliableUpdateRedundancyModel.client[0] 	interactDelay:stats
+field count 589
+field mean 0.22935029881154
+field stddev 0.056172099579771
+field sum 135.087326
+field sqrsum 32.837637789218
+field min 0.110691
+field max 0.424762
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+scalar UnreliableUpdateRedundancyModel.client[1] 	"Delivery rate" 	0.308806622212
+statistic UnreliableUpdateRedundancyModel.client[1] 	interactDelay:stats
+field count 1315
+field mean 0.22959689885932
+field stddev 0.056109391362117
+field sum 301.919922
+field sqrsum 73.456696426968
+field min 0.109647
+field max 0.484905
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"

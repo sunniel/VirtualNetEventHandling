@@ -1,0 +1,4 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "FastSMRModel" "FastSMRModel" "2" "565x341+125+125:normal"
+inspector "FastSMRModel.logicComputer[0]" "LogicComputer" "2" "565x341+125+125:normal"
+

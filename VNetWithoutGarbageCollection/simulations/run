@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/fastsmrsimulation -n .:../src $*
+# for shared lib, use: opp_run -l ../src/fastsmrsimulation -n .:../src $*

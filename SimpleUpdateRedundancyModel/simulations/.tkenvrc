@@ -1,0 +1,4 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "BasicSMRModel" "BasicSMRModel" "2" "673x468+154+226:normal"
+inspector "UnreliableUpdateRedundancyModel" "UnreliableUpdateRedundancyModel" "2" "820x592+533+162:normal"
+

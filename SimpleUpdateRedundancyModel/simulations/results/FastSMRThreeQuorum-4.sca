@@ -1,0 +1,43 @@
+version 2
+run FastSMRThreeQuorum-4-20180222-21:18:02-5176
+attr configname FastSMRThreeQuorum
+attr datetime 20180222-21:18:02
+attr experiment FastSMRThreeQuorum
+attr inifile omnetpp.ini
+attr iterationvars "$stddev2=250, $stddev3=250, $0=300"
+attr iterationvars2 "$stddev2=250, $stddev3=250, $0=300, $repetition=0"
+attr measurement "$stddev2=250, $stddev3=250, $0=300"
+attr network fastSMR.FastSMRModel
+attr processid 5176
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 4
+attr seedset 4
+attr stddev2 250
+attr stddev3 250
+
+scalar . 	stddev2 	250
+scalar . 	stddev3 	250
+statistic FastSMRModel.client[0] 	interactDelay:stats
+field count 4922
+field mean 1.1448569479886
+field stddev 0.29264630453097
+field sum 5634.985898
+field sqrsum 6872.6963480165
+field min 0.446738
+field max 2.608394
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+statistic FastSMRModel.client[1] 	interactDelay:stats
+field count 4931
+field mean 1.1441987657676
+field stddev 0.293103231829
+field sum 5642.044114
+field sqrsum 6879.1537688726
+field min 0.420009
+field max 2.570487
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"

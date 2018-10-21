@@ -1,0 +1,14 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "FastSMRModel" "FastSMRModel" "2" "636x501+64+365:normal"
+inspector "FastSMRModel.client[1].connect" "bool" "1" "303x79+225+225:normal"
+inspector "FastSMRModel.client[2].connect" "bool" "1" "307x79+25+25:normal"
+inspector "FastSMRModel.client[3].connect" "bool" "1" "304x79+75+75:normal"
+inspector "FastSMRModel.client[4].connect" "bool" "1" "303x79+125+125:normal"
+inspector "FastSMRModel.client[5].connect" "bool" "1" "303x79+175+175:normal"
+inspector "FastSMRModel.client[6].connect" "bool" "1" "303x79+225+225:normal"
+inspector "FastSMRModel.client[7].connect" "bool" "1" "303x79+25+25:normal"
+inspector "FastSMRModel.logicComputer[0]" "LogicComputer" "2" "565x341+150+150:normal"
+inspector "FastSMRModel.client[8].connect" "bool" "1" "305x79+75+75:normal"
+inspector "FastSMRModel.client[9].connect" "bool" "1" "303x79+125+125:normal"
+inspector "FastSMRModel.client[0].connect" "bool" "1" "303x79+102+210:normal"
+

@@ -1,0 +1,3 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "FastSMRModel" "FastSMRModel" "2" "636x501+140+323:normal"
+

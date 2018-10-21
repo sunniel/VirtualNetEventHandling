@@ -1,0 +1,19 @@
+//1. N_C has yet to be implemented
+
+//2. A member will only reply the request on round r when it has finished the event collection of r
+
+//3. Check whether events are matched between senders and recipients
+
+//4. update dissemination
+
+xx5. Client network layering
+
+//6. Garbage collection
+
+//Qa wrong after GC
+
+
+//7. Code clean
+change the type of Rg
+
+//broadcast: removed reference of hosts

@@ -1,0 +1,41 @@
+version 2
+run FastSMRDeliveryRate-2-20180303-16:47:54-9000
+attr configname FastSMRDeliveryRate
+attr datetime 20180303-16:47:54
+attr experiment FastSMRDeliveryRate
+attr inifile omnetpp.ini
+attr iterationvars $0=0.7
+attr iterationvars2 "$0=0.7, $repetition=0"
+attr measurement $0=0.7
+attr network fastSMR.FastSMRModel
+attr processid 9000
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 2
+attr seedset 2
+
+scalar FastSMRModel.client[0] 	"Delivery rate" 	0.82386134623136
+statistic FastSMRModel.client[0] 	interactDelay:stats
+field count 8142
+field mean 1.2825085330386
+field stddev 0.53031873988623
+field sum 10442.184476
+field sqrsum 15681.748974217
+field min 0.366988
+field max 3.120692
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+scalar FastSMRModel.client[1] 	"Delivery rate" 	0.832325675131
+statistic FastSMRModel.client[1] 	interactDelay:stats
+field count 8220
+field mean 1.2910721154501
+field stddev 0.52934141649419
+field sum 10612.612789
+field sqrsum 16004.631437088
+field min 0.415228
+field max 3.118183
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"

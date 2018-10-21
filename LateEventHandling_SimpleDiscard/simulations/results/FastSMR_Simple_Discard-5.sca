@@ -1,0 +1,137 @@
+version 2
+run FastSMR_Simple_Discard-5-20180717-18:24:45-6516
+attr configname FastSMR_Simple_Discard
+attr datetime 20180717-18:24:45
+attr experiment FastSMR_Simple_Discard
+attr inifile omnetpp.ini
+attr iterationvars $0=205
+attr iterationvars2 "$0=205, $repetition=0"
+attr measurement $0=205
+attr network fastSMR.FastSMRModel
+attr processid 6516
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 5
+attr seedset 5
+
+scalar FastSMRModel.client[0] 	"Delivery rate" 	0.005
+statistic FastSMRModel.client[0] 	interactDelay:stats
+field count 0
+field mean 0
+field stddev -1.#IND
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+scalar FastSMRModel.client[1] 	"Delivery rate" 	0.0215
+statistic FastSMRModel.client[1] 	interactDelay:stats
+field count 0
+field mean 0
+field stddev -1.#IND
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+scalar FastSMRModel.client[2] 	"Delivery rate" 	0.005
+statistic FastSMRModel.client[2] 	interactDelay:stats
+field count 0
+field mean 0
+field stddev -1.#IND
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+scalar FastSMRModel.client[3] 	"Delivery rate" 	0.028
+statistic FastSMRModel.client[3] 	interactDelay:stats
+field count 0
+field mean 0
+field stddev -1.#IND
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+scalar FastSMRModel.client[4] 	"Delivery rate" 	0.0125
+statistic FastSMRModel.client[4] 	interactDelay:stats
+field count 0
+field mean 0
+field stddev -1.#IND
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+scalar FastSMRModel.client[5] 	"Delivery rate" 	0.123
+statistic FastSMRModel.client[5] 	interactDelay:stats
+field count 0
+field mean 0
+field stddev -1.#IND
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+scalar FastSMRModel.client[6] 	"Delivery rate" 	0.0025
+statistic FastSMRModel.client[6] 	interactDelay:stats
+field count 0
+field mean 0
+field stddev -1.#IND
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+scalar FastSMRModel.client[7] 	"Delivery rate" 	0.012
+statistic FastSMRModel.client[7] 	interactDelay:stats
+field count 0
+field mean 0
+field stddev -1.#IND
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+scalar FastSMRModel.client[8] 	"Delivery rate" 	0.0165
+statistic FastSMRModel.client[8] 	interactDelay:stats
+field count 0
+field mean 0
+field stddev -1.#IND
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+scalar FastSMRModel.client[9] 	"Delivery rate" 	0.038
+statistic FastSMRModel.client[9] 	interactDelay:stats
+field count 0
+field mean 0
+field stddev -1.#IND
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"

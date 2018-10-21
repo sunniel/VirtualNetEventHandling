@@ -1,0 +1,40 @@
+# Blender MTL File: 'mobile_air_conditioner.blend'
+# Material Count: 3
+
+newmtl Material.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+
+newmtl air_conditioner
+Ns 510.971755
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500129 0.500129 0.500129
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\air conditioner_COL.jpg
+map_Bump  textures\\air conditioner_nor.jpg
+map_Ks  textures\\air conditioner_Spec.jpg
+refl -s 0.700000 0.700000 1.000000 textures\\glossiness.png
+
+newmtl air_conditioner_glossiness
+Ns 37.254902
+Ka 1.000000 1.000000 1.000000
+Kd 0.310588 0.310588 0.310588
+Ks 0.571042 0.571042 0.571042
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\air conditioner_COL.jpg
+map_Bump  textures\\air conditioner_nor.jpg
+map_Ks  textures\\air conditioner_Spec.jpg
+refl  textures\\glossiness.png

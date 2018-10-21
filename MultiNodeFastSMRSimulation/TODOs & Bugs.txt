@@ -1,0 +1,2 @@
+1. Heartbeat cycle and Heartbeat timeout should be separated
+	Solution: timeout heartbeat, then check whether there is any request / response within the timeout

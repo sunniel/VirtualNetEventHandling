@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/SimpleUpdateRedundancyModel/simulations/results/SimpleURM-0.sca"/>
+    <inputs name="/SimpleUpdateRedundancyModel/simulations/results/SimpleURM-1.sca"/>
+    <inputs name="/SimpleUpdateRedundancyModel/simulations/results/SimpleURM-2.sca"/>
+    <inputs name="/SimpleUpdateRedundancyModel/simulations/results/SimpleURM-3.sca"/>
+    <inputs name="/SimpleUpdateRedundancyModel/simulations/results/SimpleURM-4.sca"/>
+  </inputs>
+  <datasets/>
+  <chartSheets/>
+</scave:Analysis>

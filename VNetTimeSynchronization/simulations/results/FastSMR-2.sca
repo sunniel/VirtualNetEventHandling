@@ -1,0 +1,171 @@
+version 2
+run FastSMR-2-20180717-08:18:27-3948
+attr configname FastSMR
+attr datetime 20180717-08:18:27
+attr experiment FastSMR
+attr inifile omnetpp.ini
+attr iterationvars $0=50
+attr iterationvars2 "$0=50, $repetition=0"
+attr measurement $0=50
+attr network ned.FastSMRModel
+attr processid 3948
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 2
+attr seedset 2
+
+statistic FastSMRModel.client[0] 	interactDelay:stats
+field count 12045
+field mean 2.1859432195102
+field stddev 0.76684510110518
+field sum 26329.686079
+field sqrsum 64637.68992729
+field min 0.151406
+field max 4.214973
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Latency, stats"
+statistic FastSMRModel.client[1] 	interactDelay:stats
+field count 12078
+field mean 0.81551636222884
+field stddev 0.50938635186793
+field sum 9849.806623
+field sqrsum 11166.351464549
+field min 0.109307
+field max 3.122684
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Latency, stats"
+statistic FastSMRModel.client[2] 	interactDelay:stats
+field count 12047
+field mean 2.645968818461
+field stddev 1.3450596776479
+field sum 31875.986356
+field sqrsum 106136.31492755
+field min 0.247663
+field max 6.031117
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Latency, stats"
+statistic FastSMRModel.client[3] 	interactDelay:stats
+field count 12046
+field mean 5.177580988876
+field stddev 2.6120946960186
+field sum 62369.140592
+field sqrsum 405104.77777484
+field min 0.251529
+field max 9.502153
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Latency, stats"
+statistic FastSMRModel.client[4] 	interactDelay:stats
+field count 12046
+field mean 3.5272164501909
+field stddev 1.6924483191796
+field sum 42488.849359
+field sqrsum 184368.84132496
+field min 0.226531
+field max 8.206297
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Latency, stats"
+statistic FastSMRModel.client[5] 	interactDelay:stats
+field count 12044
+field mean 3.1700885047326
+field stddev 0.88152808524014
+field sum 38180.545951
+field sqrsum 130394.22595038
+field min 0.284431
+field max 4.962203
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Latency, stats"
+statistic FastSMRModel.client[6] 	interactDelay:stats
+field count 12049
+field mean 2.6297919044734
+field stddev 1.5458514686697
+field sum 31686.362657
+field sqrsum 112119.12468048
+field min 0.164973
+field max 6.496518
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Latency, stats"
+statistic FastSMRModel.client[7] 	interactDelay:stats
+field count 12061
+field mean 1.3751250844872
+field stddev 0.85103413069397
+field sum 16585.383644
+field sqrsum 31541.541729477
+field min 0.115508
+field max 3.537144
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Latency, stats"
+statistic FastSMRModel.client[8] 	interactDelay:stats
+field count 12270
+field mean 4.2064098464548
+field stddev 1.9606171738303
+field sum 51612.648816
+field sqrsum 264266.23190897
+field min 0.205025
+field max 7.89719
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Latency, stats"
+statistic FastSMRModel.logicComputer[0].node[0].ctrl 	consensus:stats
+field count 1
+field mean 0
+field stddev -1.#IND
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  consensus
+attr title  "Consensus Instance, stats"
+statistic FastSMRModel.logicComputer[0].node[1].ctrl 	consensus:stats
+field count 1
+field mean 0
+field stddev -1.#IND
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  consensus
+attr title  "Consensus Instance, stats"
+statistic FastSMRModel.logicComputer[0].node[2].ctrl 	consensus:stats
+field count 1
+field mean 0
+field stddev -1.#IND
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  consensus
+attr title  "Consensus Instance, stats"
+statistic FastSMRModel.logicComputer[0].node[3].ctrl 	consensus:stats
+field count 1
+field mean 0
+field stddev -1.#IND
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  consensus
+attr title  "Consensus Instance, stats"
+statistic FastSMRModel.logicComputer[0].node[4].ctrl 	consensus:stats
+field count 1
+field mean 2195
+field stddev -1.#IND
+field sum 2195
+field sqrsum 4818025
+field min 2195
+field max 2195
+attr interpolationmode  none
+attr source  consensus
+attr title  "Consensus Instance, stats"

@@ -1,0 +1,39 @@
+version 2
+run SimpleURM-3-20180222-08:55:44-55656
+attr configname SimpleURM
+attr datetime 20180222-08:55:44
+attr experiment SimpleURM
+attr inifile omnetpp.ini
+attr iterationvars $0=200
+attr iterationvars2 "$0=200, $repetition=0"
+attr measurement $0=200
+attr network unreliable.UnreliableUpdateRedundancyModel
+attr processid 55656
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 3
+attr seedset 3
+
+statistic UnreliableUpdateRedundancyModel.client[0] 	interactDelay:stats
+field count 283
+field mean 0.46620071731449
+field stddev 0.40033142553883
+field sum 131.934803
+field sqrsum 106.7029003746
+field min 0.1157
+field max 6.63528
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+statistic UnreliableUpdateRedundancyModel.client[1] 	interactDelay:stats
+field count 484
+field mean 0.46031184504132
+field stddev 0.3243275832286
+field sum 222.790933
+field sqrsum 153.35929356803
+field min 0.118808
+field max 6.664241
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"

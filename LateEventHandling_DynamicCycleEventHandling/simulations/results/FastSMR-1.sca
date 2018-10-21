@@ -1,0 +1,192 @@
+version 2
+run FastSMR-1-20180717-21:27:56-5196
+attr configname FastSMR
+attr datetime 20180717-21:27:56
+attr experiment FastSMR
+attr inifile omnetpp.ini
+attr iterationvars $0=25
+attr iterationvars2 "$0=25, $repetition=0"
+attr measurement $0=25
+attr network ned.FastSMRModel
+attr processid 5196
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 1
+attr seedset 1
+
+scalar FastSMRModel.client[0] 	"Delivery rate" 	0.977
+statistic FastSMRModel.client[0] 	interactDelay:stats
+field count 1955
+field mean 0.59628705780051
+field stddev 0.15099350107977
+field sum 1165.741198
+field sqrsum 739.66570812998
+field min 0.123805
+field max 1.183037
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Latency, stats"
+scalar FastSMRModel.client[1] 	"Delivery rate" 	0.978
+statistic FastSMRModel.client[1] 	interactDelay:stats
+field count 1960
+field mean 1.6898534357143
+field stddev 0.65007310596581
+field sum 3312.112734
+field sqrsum 6424.8487724559
+field min 0.258602
+field max 3.017697
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Latency, stats"
+scalar FastSMRModel.client[2] 	"Delivery rate" 	0.9885
+statistic FastSMRModel.client[2] 	interactDelay:stats
+field count 1987
+field mean 1.7577121927529
+field stddev 0.56152843318639
+field sum 3492.574127
+field sqrsum 6765.1540911368
+field min 0.241793
+field max 2.88993
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Latency, stats"
+scalar FastSMRModel.client[3] 	"Delivery rate" 	0.9905
+statistic FastSMRModel.client[3] 	interactDelay:stats
+field count 1993
+field mean 1.9728146201706
+field stddev 0.78600173702719
+field sum 3931.819538
+field sqrsum 8987.4061398134
+field min 0.247595
+field max 3.368121
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Latency, stats"
+scalar FastSMRModel.client[4] 	"Delivery rate" 	0.9905
+statistic FastSMRModel.client[4] 	interactDelay:stats
+field count 1992
+field mean 2.0654023032129
+field stddev 0.5238136136184
+field sum 4114.281388
+field sqrsum 9043.9382321486
+field min 0.260078
+field max 3.033103
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Latency, stats"
+scalar FastSMRModel.client[5] 	"Delivery rate" 	0.9915
+statistic FastSMRModel.client[5] 	interactDelay:stats
+field count 1996
+field mean 1.7818388817635
+field stddev 0.81763774759497
+field sum 3556.550408
+field sqrsum 7670.9201170792
+field min 0.240244
+field max 3.514452
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Latency, stats"
+scalar FastSMRModel.client[6] 	"Delivery rate" 	0.9905
+statistic FastSMRModel.client[6] 	interactDelay:stats
+field count 1998
+field mean 2.5147294214214
+field stddev 0.81346449845481
+field sum 5024.429384
+field sqrsum 13956.544204821
+field min 0.221252
+field max 3.755545
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Latency, stats"
+scalar FastSMRModel.client[7] 	"Delivery rate" 	0.9915
+statistic FastSMRModel.client[7] 	interactDelay:stats
+field count 2009
+field mean 0.61545822648084
+field stddev 0.16633170646287
+field sum 1236.455577
+field sqrsum 816.54055958506
+field min 0.179338
+field max 1.18345
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Latency, stats"
+scalar FastSMRModel.client[8] 	"Delivery rate" 	0.9965
+statistic FastSMRModel.client[8] 	interactDelay:stats
+field count 2031
+field mean 2.7274172993599
+field stddev 0.9519317247863
+field sum 5539.384535
+field sqrsum 16947.746446135
+field min 0.179295
+field max 4.472682
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Latency, stats"
+scalar FastSMRModel.client[9] 	"Delivery rate" 	0.9995
+statistic FastSMRModel.client[9] 	interactDelay:stats
+field count 2041
+field mean 1.1611611719745
+field stddev 0.30086278746585
+field sum 2369.929952
+field sqrsum 2936.5282110006
+field min 0.247451
+field max 1.942939
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Latency, stats"
+statistic FastSMRModel.logicComputer[0].node[0].ctrl 	consensus:stats
+field count 1
+field mean 0
+field stddev -1.#IND
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  consensus
+attr title  "Consensus Instance, stats"
+statistic FastSMRModel.logicComputer[0].node[1].ctrl 	consensus:stats
+field count 1
+field mean 0
+field stddev -1.#IND
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  consensus
+attr title  "Consensus Instance, stats"
+statistic FastSMRModel.logicComputer[0].node[2].ctrl 	consensus:stats
+field count 1
+field mean 0
+field stddev -1.#IND
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  consensus
+attr title  "Consensus Instance, stats"
+statistic FastSMRModel.logicComputer[0].node[3].ctrl 	consensus:stats
+field count 1
+field mean 0
+field stddev -1.#IND
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  consensus
+attr title  "Consensus Instance, stats"
+statistic FastSMRModel.logicComputer[0].node[4].ctrl 	consensus:stats
+field count 1
+field mean 2233
+field stddev -1.#IND
+field sum 2233
+field sqrsum 4986289
+field min 2233
+field max 2233
+attr interpolationmode  none
+attr source  consensus
+attr title  "Consensus Instance, stats"

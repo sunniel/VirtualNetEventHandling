@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/SimpleUpdateRedundancyModel/simulations/results/FastSMR-0.sca"/>
+    <inputs name="/SimpleUpdateRedundancyModel/simulations/results/FastSMR-1.sca"/>
+    <inputs name="/SimpleUpdateRedundancyModel/simulations/results/FastSMR-2.sca"/>
+    <inputs name="/SimpleUpdateRedundancyModel/simulations/results/FastSMR-3.sca"/>
+    <inputs name="/SimpleUpdateRedundancyModel/simulations/results/FastSMR-4.sca"/>
+  </inputs>
+  <datasets/>
+  <chartSheets/>
+</scave:Analysis>

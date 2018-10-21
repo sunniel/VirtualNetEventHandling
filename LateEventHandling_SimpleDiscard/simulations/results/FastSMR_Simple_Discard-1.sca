@@ -1,0 +1,137 @@
+version 2
+run FastSMR_Simple_Discard-1-20180717-20:15:47-5196
+attr configname FastSMR_Simple_Discard
+attr datetime 20180717-20:15:47
+attr experiment FastSMR_Simple_Discard
+attr inifile omnetpp.ini
+attr iterationvars $0=25
+attr iterationvars2 "$0=25, $repetition=0"
+attr measurement $0=25
+attr network fastSMR.FastSMRModel
+attr processid 5196
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 1
+attr seedset 1
+
+scalar FastSMRModel.client[0] 	"Delivery rate" 	0.6655
+statistic FastSMRModel.client[0] 	interactDelay:stats
+field count 6655
+field mean 66.702381247032
+field stddev 38.670521084477
+field sum 443904.347199
+field sqrsum 39559929.82717
+field min 0.291288
+field max 131.634056
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+scalar FastSMRModel.client[1] 	"Delivery rate" 	0.4985
+statistic FastSMRModel.client[1] 	interactDelay:stats
+field count 4983
+field mean 65.314703161951
+field stddev 49.307462418986
+field sum 325463.165856
+field sqrsum 33369897.253729
+field min 0.23076
+field max 156.689139
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+scalar FastSMRModel.client[2] 	"Delivery rate" 	0.252
+statistic FastSMRModel.client[2] 	interactDelay:stats
+field count 2520
+field mean 52.438956711905
+field stddev 26.717350734897
+field sum 132146.170914
+field sqrsum 8727711.9317076
+field min 0.256558
+field max 84.101178
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+scalar FastSMRModel.client[3] 	"Delivery rate" 	0.383
+statistic FastSMRModel.client[3] 	interactDelay:stats
+field count 3827
+field mean 65.903010834596
+field stddev 40.657821906653
+field sum 252210.822464
+field sqrsum 22946054.318318
+field min 0.209513
+field max 156.440563
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+scalar FastSMRModel.client[4] 	"Delivery rate" 	0.2505
+statistic FastSMRModel.client[4] 	interactDelay:stats
+field count 2505
+field mean 61.617036361677
+field stddev 41.105783502083
+field sum 154350.676086
+field sqrsum 13741603.55589
+field min 0.252362
+field max 155.404392
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+scalar FastSMRModel.client[5] 	"Delivery rate" 	0.175
+statistic FastSMRModel.client[5] 	interactDelay:stats
+field count 1750
+field mean 55.506629307429
+field stddev 50.982106564368
+field sum 97136.601288
+field sqrsum 9937682.7267327
+field min 0.234497
+field max 139.361546
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+scalar FastSMRModel.client[6] 	"Delivery rate" 	0.0105
+statistic FastSMRModel.client[6] 	interactDelay:stats
+field count 105
+field mean 0.4303760952381
+field stddev 0.24270341235163
+field sum 45.18949
+field sqrsum 25.574590674182
+field min 0.165976
+field max 0.992364
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+scalar FastSMRModel.client[7] 	"Delivery rate" 	0.089
+statistic FastSMRModel.client[7] 	interactDelay:stats
+field count 890
+field mean 19.574894906742
+field stddev 34.961000887037
+field sum 17421.656467
+field sqrsum 1427626.5317507
+field min 0.252084
+field max 132.847183
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+scalar FastSMRModel.client[8] 	"Delivery rate" 	0.6645
+statistic FastSMRModel.client[8] 	interactDelay:stats
+field count 6642
+field mean 85.299376851852
+field stddev 46.268871855944
+field sum 566558.46105
+field sqrsum 62544192.944949
+field min 0.226528
+field max 157.096108
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+scalar FastSMRModel.client[9] 	"Delivery rate" 	0.7965
+statistic FastSMRModel.client[9] 	interactDelay:stats
+field count 7963
+field mean 81.385813839257
+field stddev 46.515541667339
+field sum 648075.235602
+field sqrsum 69971474.977953
+field min 0.226678
+field max 158.694786
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"

@@ -1,0 +1,43 @@
+version 2
+run BasicNuSMR-2-20180222-23:43:45-11304
+attr configname BasicNuSMR
+attr datetime 20180222-23:43:45
+attr experiment BasicNuSMR
+attr inifile omnetpp.ini
+attr iterationvars "$stddev0=150, $stddev1=150"
+attr iterationvars2 "$stddev0=150, $stddev1=150, $repetition=0"
+attr measurement "$stddev0=150, $stddev1=150"
+attr network basicSMR.BasicSMRModel
+attr processid 11304
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 2
+attr seedset 2
+attr stddev0 150
+attr stddev1 150
+
+scalar . 	stddev0 	150
+scalar . 	stddev1 	150
+statistic BasicSMRModel.client[0] 	interactDelay:stats
+field count 5045
+field mean 1.0451102481665
+field stddev 0.27346266048861
+field sum 5272.581202
+field sqrsum 5887.6281822818
+field min 0.217002
+field max 2.116796
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+statistic BasicSMRModel.client[1] 	interactDelay:stats
+field count 5045
+field mean 1.0313124893954
+field stddev 0.27875410322213
+field sum 5202.971509
+field sqrsum 5757.827718919
+field min 0.231653
+field max 2.175755
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"

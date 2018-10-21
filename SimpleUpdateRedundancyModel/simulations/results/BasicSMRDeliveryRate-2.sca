@@ -1,0 +1,41 @@
+version 2
+run BasicSMRDeliveryRate-2-20180303-16:12:50-9948
+attr configname BasicSMRDeliveryRate
+attr datetime 20180303-16:12:50
+attr experiment BasicSMRDeliveryRate
+attr inifile omnetpp.ini
+attr iterationvars $0=0.7
+attr iterationvars2 "$0=0.7, $repetition=0"
+attr measurement $0=0.7
+attr network basicSMR.BasicSMRModel
+attr processid 9948
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 2
+attr seedset 2
+
+scalar BasicSMRModel.client[0] 	"Delivery rate" 	0.82089552238806
+statistic BasicSMRModel.client[0] 	interactDelay:stats
+field count 1367
+field mean 1.1615767534748
+field stddev 0.24026220841495
+field sum 1587.875422
+field sqrsum 1923.2927963396
+field min 0.53619
+field max 1.930323
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
+scalar BasicSMRModel.client[1] 	"Delivery rate" 	0.81132075471698
+statistic BasicSMRModel.client[1] 	interactDelay:stats
+field count 1285
+field mean 1.1396875455253
+field stddev 0.25159457133175
+field sum 1464.498496
+field sqrsum 1750.3476758992
+field min 0.564024
+field max 1.850795
+attr interpolationmode  none
+attr source  delay
+attr title  "Interaction Delay, stats"
