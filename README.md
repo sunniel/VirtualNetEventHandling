@@ -14,6 +14,8 @@ It has 8 sub-projects, including:
 
 Project 1-7 are OMNet++ 4.2.2 projects, with Boost 1.66 as the external additional library. Project 8 is a JAVA project. The complete implementation of the proposed fast event delivery algorithm is in the MultiNodeFastSMRSimulation project.
 
+**Note: to enable client - mesh computer communication, after client initialization (i.e., the Client Init event), the flag "connect" must be turned to TRUE on all clients.
+
 The SimpleUpdateRedundancyModel is used to evaluate the overall performance of the proposed fast event handling algorithm. The compared models are implemented in the SimpleUpdateRedundancyModel project. In this project, configuring omnetpp.ini to different instances in run to select different models. Specifically, the SimpleURM represents the primary-backup model, the BasicSMR represents the consensus-based model, and the FastSMR represents the proposed fast event delivery model. These settings are used to test the interaction latency of different models with different channel delay. The SimpleURMDeliveryRate, BasicSMRDeliveryRate, and FastSMRDeliveryRate settings are used to test the delivery rate of different models with different message drop rates.
 
 The LateEventHandling_SimpleDiscard project and the LateEventHandling_DynamicCycleEventHandling project are used to evaluated the proposed late event handling approach. In the LateEventHandling_SimpleDiscard project, late events are simply discard, while in the LateEventHandling_DynamicCycleEventHandling project, late events are handled by the proposed late event handling approach. The execution results of these two projects are compared to evaluate the effectiveness and the efficiency improvement of the proposed late event handling approach.
