@@ -4,11 +4,11 @@ Four test cases are configured as follows.
 
 1) For observing the length of event delivery queue (i.e., Qd) with garbage collection, garbage collection is enabled through the following configurations.
 
-#**.node[*].ctrl.GCCycle = 5000ms
+	#**.node[*].ctrl.GCCycle = 5000ms
 
-**.node[*].ctrl.GC = ${GC = true}
+	**.node[*].ctrl.GC = ${GC = true}
 
-#**.churnGenerator.life_span_max = 1000s
+	#**.churnGenerator.life_span_max = 1000s
 
 2) For observing the length of event delivery queue (i.e., Qd) without garbage collection, garbage collection is disabled through the following configurations.
 
