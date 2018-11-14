@@ -13,3 +13,5 @@ Update 2018-11-14:
 3. The test cases of the latest version can be found in the Evaluations folder.
 
 Details of the work can be found the in respective project folders and sub-folders.
+
+Contacts: Daniel Shen (daniel.shen@connect.umac.mo), Dr. Jingzhi Guo (jzguo@umac.mo)
