@@ -6,4 +6,4 @@ The clock error is varied through the following configuration.
 
 The simulation results can be found in the /simulation/results folder: 
 
-\TimeSynchronizationTestCases\simulations\FastSMR-TimeSync.anf: contains the experiment result for observing the interaction latency with different clock offsets.
+	\TimeSynchronizationTestCases\simulations\FastSMR-TimeSync.anf: contains the experiment result for observing the interaction latency with different clock offsets.

@@ -6,6 +6,6 @@ In the experiment, only update delivery rate is compared. The time of event sent
 
 The simulation results can be found in the \simulation\results folder:
 
-\LateEventHandlingComparison\simulations\SimpleDiscard.anf: contains the experiment result for the simple late event discard approach.
+	\LateEventHandlingComparison\simulations\SimpleDiscard.anf: contains the experiment result for the simple late event discard approach.
 
-\LateEventHandlingComparison\simulations\DynamicDelivery.anf: contains the experiment result for the proposed late event discard approach.
+	\LateEventHandlingComparison\simulations\DynamicDelivery.anf: contains the experiment result for the proposed late event discard approach.

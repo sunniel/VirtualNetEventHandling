@@ -20,14 +20,14 @@ In the omnetpp.ini file of both projects, configure jitter and packet loss rate 
 
 The simulation results can be found in the \simulation\results folder:
 
-\AlternativeEHModels\simulations\PrimaryBackup-Latency.anf: contains the experiment result of interaction latency evaluation for the primary-backup model.
+	\AlternativeEHModels\simulations\PrimaryBackup-Latency.anf: contains the experiment result of interaction latency evaluation for the primary-backup model.
 
-\AlternativeEHModels\simulations\ConsensusBased-Latency.anf: contains the experiment result of interaction latency evaluation for the consensus-based model.
+	\AlternativeEHModels\simulations\ConsensusBased-Latency.anf: contains the experiment result of interaction latency evaluation for the consensus-based model.
 
-\FastSMRModel\simulations\FastSMR-Latency.anf: file contains experiment result of interaction latency evaluation for the FastSMR model.
+	\FastSMRModel\simulations\FastSMR-Latency.anf: file contains experiment result of interaction latency evaluation for the FastSMR model.
 
-\AlternativeEHModels\simulations\PrimaryBackup-PacketDrop.anf: contains the experiment result of update delivery rate evaluation for the primary-based model.
+	\AlternativeEHModels\simulations\PrimaryBackup-PacketDrop.anf: contains the experiment result of update delivery rate evaluation for the primary-based model.
 
-\AlternativeEHModels\simulations\ConsensusBased-PacketDrop.anf: contains the experiment result of update delivery rate evaluation for the consensus-based model.
+	\AlternativeEHModels\simulations\ConsensusBased-PacketDrop.anf: contains the experiment result of update delivery rate evaluation for the consensus-based model.
 
-\FastSMRModel\simulations\FastSMR-PacketDrop.anf: contains the experiment result of update delivery rate evaluation for the FastSMR model.
+	\FastSMRModel\simulations\FastSMR-PacketDrop.anf: contains the experiment result of update delivery rate evaluation for the FastSMR model.
