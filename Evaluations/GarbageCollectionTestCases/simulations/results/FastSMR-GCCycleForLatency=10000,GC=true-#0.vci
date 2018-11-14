@@ -1,0 +1,281 @@
+file 1724215 1542133551                                         
+version 2
+run FastSMR-9-20181114-02:25:10-7180
+attr configname FastSMR
+attr datetime 20181114-02:25:10
+attr experiment FastSMR
+attr inifile omnetpp.ini
+attr iterationvars "$GCCycleForLatency=10000, $GC=true"
+attr iterationvarsf GCCycleForLatency=10000,GC=true-
+attr measurement "$GCCycleForLatency=10000, $GC=true"
+attr network abstract.FastSMRModel
+attr processid 7180
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 9
+attr seedset 9
+itervar GC true
+itervar GCCycleForLatency 10000
+param FastSMRModel.client_num 10
+param FastSMRModel.logical_computer "\"client[0]\""
+param **.globalParameters.max_distance 20000000m
+param **.globalParameters.fix_latency 100ms
+param **.globalParameters.latency_gen_mode 0
+param **.globalStatistics.cool_down 10s
+param **.underlayConfigurator.lcType "\"abstract.LogicComputer\""
+param **.underlayConfigurator.lcName "\"logicComputer\""
+param **.underlayConfigurator.nodeType "\"hosts.Node\""
+param **.underlayConfigurator.nodeName "\"node\""
+param **.underlayConfigurator.clientType "\"hosts.Client\""
+param **.underlayConfigurator.clientName "\"client\""
+param **.client[*].ctrl.initJoinTime 3000ms
+param **.client[*].ctrl.loadCycle 500ms
+param **.client[*].ctrl.discoveryCycle 1000ms
+param **.client[*].ctrl.deviate false
+param **.node[*].IPInterface "\"IPAddress\""
+param **.node[*].HBcycle 1000ms
+param **.node[*].ctrl.roundCycle 200ms
+param **.node[*].ctrl.cycleStart 4000ms
+param **.node[*].ctrl.GCCycle 10000ms
+param **.node[*].ctrl.GC true
+param **.rendezvous.ctrl.cycle 1000ms
+param **.rendezvous.ctrl.starttime 5000ms
+param **.rendezvous.replicaNumPolicyModule "\"replication\""
+param **.rendezvous.replication.threshold 3
+param **.rendezvous.replication.max_replica 5
+param **.clock.err_mean 74ms
+param **.clock.err_std 175ms
+param **.pktLossRate 0.01
+param **.Copt 200000000mps
+param **.BW 1.04858e6bps
+param **.MTU 12144b
+param **.jitter_mu 1
+param **.jitter_sigma 0.5
+param **.Dmin 50ms
+param **.jitter 50ms
+param **.churnGeneratorModule "\"churnGenerator\""
+param **.churnGenerator.stable_fraction 0.2
+param **.churnGenerator.stable_mean 9000000ms
+param **.churnGenerator.sessionLenShape 0.38
+param **.churnGenerator.sessionLenScale 42.4
+param **.churnGenerator.sessionLenMin 10s
+param **.churnGenerator.sessionLength 30min
+param **.churnGenerator.scan_cycle 100ms
+param **.churnGenerator.life_span_min 10s
+param **.churnGenerator.life_span_max 200s
+param **.coordinator.locXMax 750
+param **.coordinator.locYMax 550
+param **.coordinator.locXMin 200
+param **.coordinator.locYMin 50
+param **.coordinator.LCXMax 1050
+param **.coordinator.LCYMax 550
+param **.coordinator.LCXMin 850
+param **.coordinator.LCYMin 50
+param **.coordinator.percept_radius 1000
+
+vector 0 FastSMRModel.client[9] IndividualInteractionLatency:vector ETV
+attr source latency
+attr title "Individual Interaction Latency, vector"
+vector 1 FastSMRModel.logicComputer[0].node[0] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 2 FastSMRModel.logicComputer[0].node[1] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 3 FastSMRModel.logicComputer[0].node[2] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 4 FastSMRModel.logicComputer[0].node[3] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 5 FastSMRModel.logicComputer[0].node[4] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 6 FastSMRModel.client[2] IndividualInteractionLatency:vector ETV
+attr source latency
+attr title "Individual Interaction Latency, vector"
+vector 7 FastSMRModel.client[4] IndividualInteractionLatency:vector ETV
+attr source latency
+attr title "Individual Interaction Latency, vector"
+vector 8 FastSMRModel.client[7] IndividualInteractionLatency:vector ETV
+attr source latency
+attr title "Individual Interaction Latency, vector"
+vector 9 FastSMRModel.client[5] IndividualInteractionLatency:vector ETV
+attr source latency
+attr title "Individual Interaction Latency, vector"
+vector 10 FastSMRModel.client[6] IndividualInteractionLatency:vector ETV
+attr source latency
+attr title "Individual Interaction Latency, vector"
+vector 11 FastSMRModel.client[0] IndividualInteractionLatency:vector ETV
+attr source latency
+attr title "Individual Interaction Latency, vector"
+vector 12 FastSMRModel.client[1] IndividualInteractionLatency:vector ETV
+attr source latency
+attr title "Individual Interaction Latency, vector"
+vector 13 FastSMRModel.client[3] IndividualInteractionLatency:vector ETV
+attr source latency
+attr title "Individual Interaction Latency, vector"
+vector 14 FastSMRModel.client[8] IndividualInteractionLatency:vector ETV
+attr source latency
+attr title "Individual Interaction Latency, vector"
+4	4917 5976 5593 563219 10.1 71.925 314 30 550 84000 28909000
+2	10893 11672 5591 980065 10.1 129.1 608 10 540 161100 55826000
+1	22565 16671 5590 1235657 10.1 175.1 842 10 540 227660 79550800
+vector 15 FastSMRModel.logicComputer[0].node[6] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 16 FastSMRModel.logicComputer[0].node[5] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 17 FastSMRModel.logicComputer[0].node[7] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+5	39623 17999 5594 1325874 10.1 185.9 898 10 1030 272510 114727900
+3	57622 19189 5592 1413363 10.1 197.7 958 20 1080 297000 128781600
+15	76811 10269 1247180 1789748 181.024 264.9 451 10 970 178560 89486400
+16	87080 10404 1248269 1795716 181.452 266.3 458 90 1080 192750 102814100
+vector 18 FastSMRModel.logicComputer[0].node[10] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 19 FastSMRModel.logicComputer[0].node[9] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 20 FastSMRModel.logicComputer[0].node[8] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+17	97872 12853 1253922 1948320 182.706 287.1 565 10 1040 238988 129233748
+19	110725 2519 1799934 1951946 269.829 287.7 110 220 981 60158 37878188
+vector 21 FastSMRModel.logicComputer[0].node[12] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 22 FastSMRModel.logicComputer[0].node[13] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 23 FastSMRModel.logicComputer[0].node[11] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+23	113634 5303 1961900 2379224 293.039 334.1 234 50 770 97010 44578500
+21	118937 14809 1959887 2988147 292.741 417.5 659 50 770 272960 119645400
+18	133746 18248 1797895 3033087 268.017 425.5 813 50 981 353758 166975808
+22	151994 16056 1960150 3039486 292.943 428.3 714 50 770 296110 129677900
+vector 24 FastSMRModel.logicComputer[0].node[16] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 25 FastSMRModel.logicComputer[0].node[15] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 26 FastSMRModel.logicComputer[0].node[14] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+20	168440 19725 1800033 3101859 269.925 437.562 876 10 981 394261 197086871
+24	188165 7717 3045335 3422389 432.201 492.7 340 120 1200 190345 136368545
+vector 27 FastSMRModel.logicComputer[0].node[19] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 28 FastSMRModel.logicComputer[0].node[18] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 29 FastSMRModel.logicComputer[0].node[17] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+26	196272 11227 3048371 3677101 434.295 520.7 492 10 1200 216867 123180247
+28	207499 5439 3435410 3817833 498.1 539.9 240 140 810 99440 45848400
+25	212938 13777 3046746 3848267 433.399 545.3 608 110 1211 302827 188737147
+vector 30 FastSMRModel.logicComputer[0].node[20] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 31 FastSMRModel.logicComputer[0].node[22] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 32 FastSMRModel.logicComputer[0].node[21] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+30	227105 4751 3874077 4240816 553.172 591.5 210 250 930 100420 52972200
+31	231856 7896 3877092 4445892 553.484 619.5 353 250 930 158770 77689900
+32	239752 10005 3879452 4547093 553.825 637.7 446 230 930 196610 93612500
+vector 33 FastSMRModel.logicComputer[0].node[23] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 34 FastSMRModel.logicComputer[0].node[24] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 35 FastSMRModel.logicComputer[0].node[25] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+29	250147 17063 3435678 4561357 498.266 642.689 756 10 930 315770 146105500
+33	267210 3462 4556475 4770403 641.74 668.1 151 260 970 76610 44212900
+27	270672 21282 3434440 4824025 497.552 677.7 945 80 960 412730 199160700
+vector 36 FastSMRModel.logicComputer[0].node[27] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 37 FastSMRModel.logicComputer[0].node[28] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 38 FastSMRModel.logicComputer[0].node[26] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+38	292344 2361 4848735 5005428 684.27 698.9 102 150 1120 64550 49078500
+34	294705 8314 4556534 5086805 641.784 709.998 369 90 1120 183680 109716400
+35	303019 13394 4562063 5339275 642.73 755.5 597 90 1120 258600 138908000
+vector 39 FastSMRModel.logicComputer[0].node[31] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 40 FastSMRModel.logicComputer[0].node[29] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 41 FastSMRModel.logicComputer[0].node[30] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+37	316803 17000 4841734 5993342 682.506 828.233 761 80 1130 303750 156759900
+36	333803 19067 4835096 6123820 681.495 846.1 855 40 1130 336270 170302100
+40	352870 15225 5362174 6367859 761.455 889.9 678 30 1000 237970 106442100
+vector 42 FastSMRModel.logicComputer[0].node[34] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 43 FastSMRModel.logicComputer[0].node[32] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 44 FastSMRModel.logicComputer[0].node[33] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+43	368485 2618 6375398 6573062 892.967 913.058 116 50 640 39130 16255700
+41	371103 19665 5362494 6680895 761.524 927.7 876 30 1000 303460 132597800
+39	390768 22479 5361603 6825882 761.237 953.7 1004 30 1000 345790 148785900
+vector 45 FastSMRModel.logicComputer[0].node[36] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 46 FastSMRModel.logicComputer[0].node[35] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 47 FastSMRModel.logicComputer[0].node[37] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+47	413637 3956 6848612 7143769 961.11 988.9 172 210 1000 85810 49935500
+44	417593 11408 6375435 7155957 892.992 990.5 505 50 1000 200720 96015400
+46	429001 6634 6835372 7277155 959.656 1012.3 292 200 1000 135370 71445300
+vector 48 FastSMRModel.logicComputer[0].node[38] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 49 FastSMRModel.logicComputer[0].node[40] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+vector 50 FastSMRModel.logicComputer[0].node[39] QdLengthVector:vector ETV
+attr source QdLength
+attr title "Qd Length, vector"
+45	436025 7048 6834540 7294607 959.339 1018.242 307 200 1000 138820 72135000
+0	443073 123708 5303 7312444 10.069 1019.625 5046 0.229 8.616 2425.846 4130.8675320001
+6	566781 123520 6454 7309896 10.128 1019.513 5046 0.226 8.592 2288.484 4082.0239700002
+7	690301 124265 6497 7308656 10.131 1019.481 5046 0.231 8.552 2281.6520000001 3988.549478
+8	814566 124251 6532 7308740 10.134 1019.484 5046 0.226 8.531 2320.821 4016.588133
+9	938817 124209 6550 7310819 10.136 1019.558 5046 0.23 8.51 2315.4399999999 4092.8613760001
+10	1063026 129003 6586 7313635 10.138 1019.75 5045 0.224 8.586 2383.2 4083.64451
+11	1192029 128764 6619 7307059 10.14 1019.444 5046 0.229 8.444 2288.272 4045.4054980001
+12	1320793 129319 6620 7308282 10.14 1019.478 5046 0.225 8.436 2274.86 4009.6264059999
+13	1450112 129217 6830 7308758 10.178 1019.492 5046 0.241 8.606 2307.733 4000.4397809999
+14	1579329 128732 6831 7309738 10.178 1019.51 5046 0.226 8.426 2269.822 4045.228242
+42	1708061 15031 6375391 7314912 892.964 1019.96 661 50 1010 264820 124097800
+48	1723092 624 7283605 7314112 1015.84 1019.864 25 220 460 8500 3020000
+49	1723716 274 7287609 7314534 1017.522 1019.942 11 220 320 2970 812900
+50	1723990 223 7288049 7313937 1017.57 1019.835 9 220 300 2340 614400
+

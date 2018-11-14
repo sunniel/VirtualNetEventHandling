@@ -1,0 +1,104 @@
+version 2
+run ConsensusBased-1-20181113-01:22:42-5896
+attr configname ConsensusBased
+attr datetime 20181113-01:22:42
+attr experiment ConsensusBased
+attr inifile omnetpp.ini
+attr iterationvars $DropRate=0.4
+attr iterationvarsf DropRate=0.4-
+attr measurement $DropRate=0.4
+attr network abstract.Model
+attr processid 5896
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 1
+attr seedset 1
+itervar DropRate 0.4
+param **.underlayConfigurator.nodeType "\"_consensus_based.ConsensusBasedNode\""
+param **.underlayConfigurator.clientType "\"_consensus_based.ConsensusBasedClient\""
+param **.client[*].ctrl.eventTimeout 200ms
+param Model.client_num 10
+param Model.logical_computer "\"client[0]\""
+param **.globalParameters.max_distance 20000000m
+param **.globalParameters.fix_latency 100ms
+param **.globalParameters.latency_gen_mode 1
+param **.underlayConfigurator.lcType "\"abstract.LogicComputer\""
+param **.underlayConfigurator.lcName "\"logicComputer\""
+param **.underlayConfigurator.nodeType "\"hosts.Node\""
+param **.underlayConfigurator.nodeName "\"node\""
+param **.underlayConfigurator.clientType "\"hosts.Client\""
+param **.underlayConfigurator.clientName "\"client\""
+param **.client[*].ctrl.initJoinTime 3000ms
+param **.client[*].ctrl.loadCycle 500ms
+param **.client[*].ctrl.discoveryCycle 1000ms
+param **.client[*].ctrl.deviate false
+param **.node[*].IPInterface "\"IPAddress\""
+param **.node[*].HBcycle 2000ms
+param **.node[*].ctrl.roundCycle 200ms
+param **.node[*].ctrl.cycleStart 4000ms
+param **.node[*].ctrl.GCCycle 5000ms
+param **.rendezvous.ctrl.cycle 2000ms
+param **.rendezvous.ctrl.starttime 5000ms
+param **.rendezvous.replicaNumPolicyModule "\"replication\""
+param **.rendezvous.replication.threshold 3
+param **.rendezvous.replication.max_replica 5
+param **.clock.err_mean 74ms
+param **.clock.err_std 175ms
+param **.pktLossRate 0.4
+param **.Copt 200000000mps
+param **.BW 1.04858e6bps
+param **.MTU 12144b
+param **.jitter_mu 1
+param **.jitter_sigma 0.5
+param **.Dmin 50ms
+param **.jitter 50ms
+param **.churnGeneratorModule "\"churnGenerator\""
+param **.churnGenerator.stable_fraction 0.2
+param **.churnGenerator.stable_mean 9000000ms
+param **.churnGenerator.sessionLenShape 0.38
+param **.churnGenerator.sessionLenScale 42.4
+param **.churnGenerator.sessionLenMin 10s
+param **.churnGenerator.sessionLength 30min
+param **.churnGenerator.scan_cycle 100ms
+param **.churnGenerator.life_span_min 10s
+param **.churnGenerator.life_span_max 1000s
+param **.coordinator.locXMax 750
+param **.coordinator.locYMax 550
+param **.coordinator.locXMin 200
+param **.coordinator.locYMin 50
+param **.coordinator.LCXMax 1050
+param **.coordinator.LCYMax 550
+param **.coordinator.LCXMin 850
+param **.coordinator.LCYMin 50
+param **.coordinator.percept_radius 1000
+
+scalar Model.globalObserver.globalStatistics Duration 1000
+scalar Model.globalObserver.globalStatistics "Consensus start #" 4773
+scalar Model.globalObserver.globalStatistics "Consensus end #" 17270
+scalar Model.globalObserver.globalStatistics "Leader election start #" 2
+scalar Model.globalObserver.globalStatistics "Leader election end #" 10
+scalar Model.globalObserver.globalStatistics "reconfiguration start #" 2
+scalar Model.globalObserver.globalStatistics "reconfiguration end #" 1
+scalar Model.globalObserver.globalStatistics "Update delivery rate" 0.89681650610017
+statistic Model DeliveryQueueLength:stats
+field count 808
+field mean 235.0853960396
+field stddev 52.049722530061
+field min 0
+field max 805
+field sum 189949
+field sqrsum 46840539
+attr source QdLength
+attr title "Delivery queue length, stats"
+statistic Model InteractionLatency:stats
+field count 43797
+field mean 0.96911660616004
+field stddev 1.0237539414573
+field min 0.3
+field max 12.6
+field sum 42444.399999991
+field sqrsum 87034.94
+attr source latency
+attr title "Interaction Latency, stats"
+

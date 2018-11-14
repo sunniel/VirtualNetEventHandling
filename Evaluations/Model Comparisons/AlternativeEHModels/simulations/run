@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/alternativeehmodels -n .:../src $*
+# for shared lib, use: opp_run -l ../src/alternativeehmodels -n .:../src $*

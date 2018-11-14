@@ -1,0 +1,102 @@
+version 2
+run DynamicDelivery-0-20181113-20:34:26-7468
+attr configname DynamicDelivery
+attr datetime 20181113-20:34:26
+attr experiment DynamicDelivery
+attr inifile omnetpp.ini
+attr iterationvars $0=0
+attr iterationvarsf 0-
+attr measurement $0=0
+attr network abstract.FastSMRModel
+attr processid 7468
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.underlayConfigurator.nodeType "\"_proposed.ProposedNode\""
+param FastSMRModel.client_num 10
+param FastSMRModel.logical_computer "\"client[0]\""
+param **.globalParameters.max_distance 20000000m
+param **.globalParameters.fix_latency 100ms
+param **.globalParameters.latency_gen_mode 1
+param **.underlayConfigurator.lcType "\"abstract.LogicComputer\""
+param **.underlayConfigurator.lcName "\"logicComputer\""
+param **.underlayConfigurator.nodeType "\"hosts.Node\""
+param **.underlayConfigurator.nodeName "\"node\""
+param **.underlayConfigurator.clientType "\"hosts.Client\""
+param **.underlayConfigurator.clientName "\"client\""
+param **.client[*].ctrl.initJoinTime 3000ms
+param **.client[*].ctrl.loadCycle 500ms
+param **.client[*].ctrl.discoveryCycle 1000ms
+param **.client[*].ctrl.deviate false
+param **.client[*].ctrl.offset "normal(0ms, 0ms)"
+param **.node[*].IPInterface "\"IPAddress\""
+param **.node[*].HBcycle 1000ms
+param **.node[*].ctrl.roundCycle 200ms
+param **.node[*].ctrl.cycleStart 4000ms
+param **.node[*].ctrl.GCCycle 5000ms
+param **.rendezvous.ctrl.cycle 1000ms
+param **.rendezvous.ctrl.starttime 5000ms
+param **.rendezvous.replicaNumPolicyModule "\"replication\""
+param **.rendezvous.replication.threshold 3
+param **.rendezvous.replication.max_replica 5
+param **.clock.err_mean 74ms
+param **.clock.err_std 175ms
+param **.pktLossRate 0
+param **.Copt 200000000mps
+param **.BW 1.04858e6bps
+param **.MTU 12144b
+param **.jitter_mu 1
+param **.jitter_sigma 0.5
+param **.Dmin 50ms
+param **.jitter 50ms
+param **.churnGeneratorModule "\"churnGenerator\""
+param **.churnGenerator.stable_fraction 0.2
+param **.churnGenerator.stable_mean 9000000ms
+param **.churnGenerator.sessionLenShape 0.38
+param **.churnGenerator.sessionLenScale 42.4
+param **.churnGenerator.sessionLenMin 10s
+param **.churnGenerator.sessionLength 30min
+param **.churnGenerator.scan_cycle 100ms
+param **.churnGenerator.life_span_min 10s
+param **.churnGenerator.life_span_max 1000s
+param **.coordinator.locXMax 750
+param **.coordinator.locYMax 550
+param **.coordinator.locXMin 200
+param **.coordinator.locYMin 50
+param **.coordinator.LCXMax 1050
+param **.coordinator.LCYMax 550
+param **.coordinator.LCXMin 850
+param **.coordinator.LCYMin 50
+param **.coordinator.percept_radius 1000
+
+scalar FastSMRModel.globalObserver.globalStatistics Duration 1000
+scalar FastSMRModel.globalObserver.globalStatistics "Consensus start #" 0
+scalar FastSMRModel.globalObserver.globalStatistics "Consensus end #" 0
+scalar FastSMRModel.globalObserver.globalStatistics "Leader election start #" 2
+scalar FastSMRModel.globalObserver.globalStatistics "Leader election end #" 11
+scalar FastSMRModel.globalObserver.globalStatistics "reconfiguration start #" 1
+scalar FastSMRModel.globalObserver.globalStatistics "reconfiguration end #" 1
+scalar FastSMRModel.globalObserver.globalStatistics "Update delivery rate" 1
+statistic FastSMRModel DeliveryQueueLength:stats
+field count 815
+field mean 251.57055214724
+field stddev 31.719549875264
+field min 40
+field max 600
+field sum 205030
+field sqrsum 52398500
+attr source QdLength
+attr title "Delivery queue length, stats"
+statistic FastSMRModel InteractionLatency:stats
+field count 49500
+field mean 0.40397979797983
+field stddev 0.069270481154833
+field min 0.4
+field max 2.3
+field sum 19997.000000002
+field sqrsum 8315.8999999951
+attr source latency
+attr title "Interaction Latency, stats"
+
