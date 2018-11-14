@@ -1,8 +1,8 @@
 The simulator is developed on OMNeT++ 5.4. Other third-party dependent libraries includes: 
 
-1. boost C++ libraries (1.66.0, https:\\www.boost.org\)
+1. boost C++ libraries (1.66.0, https:\\\\www.boost.org\)
 
-2. JSON for Modern C++ (https:\\github.com\nlohmann\json)
+2. JSON for Modern C++ (https:\\\\github.com\nlohmann\json)
 
 The above libraries, as well as the path to "<omnetpp-5.4_home>\include\omnetpp", needs to be added to the project Include directory paths.
 
