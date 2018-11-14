@@ -12,27 +12,27 @@ Four test cases are configured as follows.
 
 2) For observing the length of event delivery queue (i.e., Qd) without garbage collection, garbage collection is disabled through the following configurations.
 
-#**.node[*].ctrl.GCCycle = 5000ms
+	#**.node[*].ctrl.GCCycle = 5000ms
 
-#**.node[*].ctrl.GC = ${GC = false}
+	#**.node[*].ctrl.GC = ${GC = false}
 
-#**.churnGenerator.life_span_max = 1000s
+	#**.churnGenerator.life_span_max = 1000s
 
 3) For observing the change of event delivery queue (i.e., Qd) length with different garbage collection cycle lengths, change the system configuration to the following values.
 
-#**.node[*].ctrl.GCCycle = ${GCCycle = 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000}ms
+	#**.node[*].ctrl.GCCycle = ${GCCycle = 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000}ms
 
-**.node[*].ctrl.GC = ${GC = true}
+	**.node[*].ctrl.GC = ${GC = true}
 
-#**.churnGenerator.life_span_max = 1000s
+	#**.churnGenerator.life_span_max = 1000s
 
 4) For observing the interaction latency length with different garbage collection cycle lengths, change the system configuration to the following values.
 
-**.node[*].ctrl.GCCycle = ${GCCycleForLatency = 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000}ms
+	**.node[*].ctrl.GCCycle = ${GCCycleForLatency = 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000}ms
 
-**.node[*].ctrl.GC = ${GC = true}
+	**.node[*].ctrl.GC = ${GC = true}
 
-#**.churnGenerator.life_span_max = 200s
+	#**.churnGenerator.life_span_max = 200s
 
 The simulation results can be found in the /simulation/results folder: 
 
