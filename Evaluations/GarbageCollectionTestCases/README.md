@@ -36,8 +36,8 @@ Four test cases are configured as follows.
 
 The simulation results can be found in the /simulation/results folder: 
 
-\GarbageCollectionTestCases\simulations\FastSMR-GCFlag.anf: contains the experiment result for observing the length of Qd with/without garbage collection.
+	\GarbageCollectionTestCases\simulations\FastSMR-GCFlag.anf: contains the experiment result for observing the length of Qd with/without garbage collection.
 
-\GarbageCollectionTestCases\simulations\QdLengthTrend.anf: contains the experiment result for observing the length of Qd with different garbage collection cycle lengths.
+	\GarbageCollectionTestCases\simulations\QdLengthTrend.anf: contains the experiment result for observing the length of Qd with different garbage collection cycle lengths.
 
-\GarbageCollectionTestCases\simulations\FastSMR-GC-Latency.anf: contains the experiment result for observing the interaction latency length with different garbage collection cycle lengths.
+	\GarbageCollectionTestCases\simulations\FastSMR-GC-Latency.anf: contains the experiment result for observing the interaction latency length with different garbage collection cycle lengths.
