@@ -75,12 +75,12 @@ void Client::initialize(int stage) {
         WATCH(id);
         WATCH_MULTIMAP(replicaMaps);
         WATCH_MAP(rendezvousMaps);
-
-        // initialize neighbor discovery
-        scheduleAt(simTime() + discovery, neighborDiscovery);
     }
 
     if (stage == 1) {
+        // initialize neighbor discovery
+        scheduleAt(simTime() + discovery, neighborDiscovery);
+
         TransportAddress* addr =
                 UnderlayConfiguratorAccess().get()->registerEndpoint(
                         getParentModule());

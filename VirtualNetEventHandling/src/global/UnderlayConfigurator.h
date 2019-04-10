@@ -69,10 +69,6 @@ protected:
     virtual void handleMessage(cMessage* msg);
 
 private:
-    bool init;
-    bool simulationEndingSoon;
-    bool transitionTimeFinished;
-    unsigned int initCounter;
     // logic computer creation counter
     int lcCreated;
     int clientCreated;

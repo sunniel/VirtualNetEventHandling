@@ -28,10 +28,6 @@ package global;
 simple GlobalParameters
 {
     parameters:
-//        double rpcUdpTimeout @unit(s);    // default timeout value for direct RPCs
-//        double rpcKeyTimeout @unit(s);    // default timeout value for routed RPCs
-//        bool printStateToStdOut = default(false);  // print overlay ready messages to std::cout
-//        bool topologyAdaptation;   // turn on topologyAdaptation (for demonstrator)
         @display("i=block/control");
         double max_distance @unit(m);
         double fix_latency @unit(s);

@@ -23,7 +23,7 @@ import ctrl.*;
 module Client
 {
     parameters:
-        @display("i=block/broadcast");
+        @display("i=block/user");
     gates:
         inout udpgate @directIn;
         inout tcpgate @directIn;

@@ -22,7 +22,7 @@ simple ClientCtrl
 {
     parameters:
         @class(Client);
-        @display("i=block/user");
+        @display("i=block/broadcast");
         @signal[latency](type="double");
         //  Minimal time unit can only be second
         double initJoinTime @unit(s);
